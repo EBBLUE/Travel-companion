@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Companion</h1>
+        <form id="cityForm">
+            <input type="text" id="cityInput" placeholder="Enter a city" required>
+            <button type="submit">Get Recommendations</button>
+        </form>
+        <div id="recommendations" class="hidden">
+            <h2>Recommendations for <span id="cityName"></span></h2>
+            <ul id="recList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
